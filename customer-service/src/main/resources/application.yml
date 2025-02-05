@@ -1,6 +1,19 @@
 spring:
   application:
     name: "customer-service"
+  datasource:
+    url: "jdbc:mysql://localhost:3307/customer-service"  # Replace with your MySQL database name
+    username: admin  # Replace with your MySQL username
+    password: test  # Replace with your MySQL password
+    driver-class-name: com.mysql.cj.jdbc.Driver  # MySQL driver class
+    hikari:
+      maximum-pool-size: 10  # Optional: Adjust according to your needs
+
+  jpa:
+    hibernate:
+       ddl-auto: update  # Can be 'none', 'update', 'create', 'create-drop'
+    show-sql: true  # To show SQL queries in the console
+    database-platform: org.hibernate.dialect.MySQL8Dialect  # Use MySQL dialect
 
 
 
