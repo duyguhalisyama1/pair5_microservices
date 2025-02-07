@@ -3,7 +3,7 @@ spring:
     name: "product-service"
   data:
     mongodb:
-      uri: mongodb://localhost:27018
+      uri: mongodb://localhost:27019
       database: product-service
       username: admin   # (Optional)
       password: test   # (Optional)
