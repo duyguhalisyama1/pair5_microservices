@@ -1,6 +1,13 @@
+
 spring:
   application:
     name: "cart-service"
+  data:
+    mongodb:
+      uri: mongodb://localhost:27018
+      database: cart-service
+      username: admin   # (Optional)
+      password: test   # (Optional)
 
 server:
   port: 8081
