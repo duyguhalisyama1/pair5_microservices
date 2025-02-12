@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="916c15cb-685c-493d-861c-01e258d30a4e" name="Changes" comment="gateway server discovery server eklendi. discovery server çalışırken exception fırlatıyor sebebini bilmiyorum." />
+    <list default="true" id="916c15cb-685c-493d-861c-01e258d30a4e" name="Changes" comment="gateway server discovery server eklendi. discovery server çalışırken exception fırlatıyor sebebini bilmiyorum.">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -213,6 +217,7 @@
       <workItem from="1739185917824" duration="739000" />
       <workItem from="1739357614214" duration="55000" />
       <workItem from="1739357686489" duration="1514000" />
+      <workItem from="1739381725272" duration="318000" />
     </task>
     <task id="LOCAL-00001" summary="gateway server discovery server eklendi. docker compose eklendi. *servislere eureka bağımlılıkları eklenMEdi.*">
       <option name="closed" value="true" />
