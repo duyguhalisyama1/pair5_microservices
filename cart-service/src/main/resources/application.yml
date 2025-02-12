@@ -10,4 +10,6 @@ spring:
       password: test   # (Optional)
 
 server:
+
   port: 8081
+

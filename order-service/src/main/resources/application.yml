@@ -3,7 +3,9 @@ spring:
     name: "order-service"
   datasource:
     url: "jdbc:postgresql://localhost:5433/order-service"
+
     username: admin
+    
     password: test
   jpa:
     properties:
