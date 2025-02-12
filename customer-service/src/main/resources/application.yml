@@ -11,7 +11,9 @@ spring:
 
   jpa:
     hibernate:
-       ddl-auto: update  # Can be 'none', 'update', 'create', 'create-drop'
+
+      ddl-auto: update  # Can be 'none', 'update', 'create', 'create-drop'
+
     show-sql: true  # To show SQL queries in the console
     database-platform: org.hibernate.dialect.MySQL8Dialect  # Use MySQL dialect
 
