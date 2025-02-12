@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="916c15cb-685c-493d-861c-01e258d30a4e" name="Changes" comment="gateway server discovery server eklendi. docker compose eklendi. *servislere eureka bağımlılıkları eklenMEdi.*">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_02_2025_11_38__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_02_2025_11_38__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/identity-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/identity-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/identity-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/identity-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="916c15cb-685c-493d-861c-01e258d30a4e" name="Changes" comment="gateway server discovery server eklendi. discovery server çalışırken exception fırlatıyor sebebini bilmiyorum." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,6 +65,8 @@
     "Spring Boot.DiscoveryServiceApplication.executor": "Run",
     "Spring Boot.GatewayServerApplication.executor": "Run",
     "Spring Boot.IdentityServiceApplication.executor": "Run",
+    "Spring Boot.NotificationServiceApplication.executor": "Run",
+    "Spring Boot.OrderServiceApplication.executor": "Run",
     "Spring Boot.ProductServiceApplication.executor": "Run",
     "git-widget-placeholder": "duygu1",
     "ignore.virus.scanning.warn.message": "true",
@@ -225,7 +212,7 @@
       <workItem from="1739164455384" duration="1721000" />
       <workItem from="1739185917824" duration="739000" />
       <workItem from="1739357614214" duration="55000" />
-      <workItem from="1739357686489" duration="1103000" />
+      <workItem from="1739357686489" duration="1514000" />
     </task>
     <task id="LOCAL-00001" summary="gateway server discovery server eklendi. docker compose eklendi. *servislere eureka bağımlılıkları eklenMEdi.*">
       <option name="closed" value="true" />
@@ -243,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739186060557</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="gateway server discovery server eklendi. discovery server çalışırken exception fırlatıyor sebebini bilmiyorum.">
+      <option name="closed" value="true" />
+      <created>1739359183976</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739359183976</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +246,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gateway server discovery server eklendi. docker compose eklendi. *servislere eureka bağımlılıkları eklenMEdi.*" />
-    <option name="LAST_COMMIT_MESSAGE" value="gateway server discovery server eklendi. docker compose eklendi. *servislere eureka bağımlılıkları eklenMEdi.*" />
+    <MESSAGE value="gateway server discovery server eklendi. discovery server çalışırken exception fırlatıyor sebebini bilmiyorum." />
+    <option name="LAST_COMMIT_MESSAGE" value="gateway server discovery server eklendi. discovery server çalışırken exception fırlatıyor sebebini bilmiyorum." />
   </component>
 </project>
