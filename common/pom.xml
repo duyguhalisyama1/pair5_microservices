@@ -17,6 +17,12 @@
             <name>Duygu Halisyama</name>
             <email>duyguhalisyama@gmail.com</email>
         </developer>
+
+        <developer>
+            <id>SevvalKolaca</id>
+            <name>Şevval Kolaca</name>
+            <email>sevval.kolaca.00@gmail.com</email>
+        </developer>
     </developers>
 
     <licenses>
